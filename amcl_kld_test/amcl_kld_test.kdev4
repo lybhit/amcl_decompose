@@ -1,0 +1,4 @@
+[Project]
+Name=amcl_kld_test
+Manager=KDevCMakeManager
+VersionControl=

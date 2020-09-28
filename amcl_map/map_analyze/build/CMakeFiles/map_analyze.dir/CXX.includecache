@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/amcl/map/map.h
+stdint.h
+-
+
+/home/lyb/projects/amcl_map/map_analyze/main.cpp
+iostream
+-
+stdlib.h
+-
+iomanip
+-
+amcl/map/map.h
+/home/lyb/projects/amcl_map/map_analyze/amcl/map/map.h
+

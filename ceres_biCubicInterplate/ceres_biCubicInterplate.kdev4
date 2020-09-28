@@ -1,0 +1,4 @@
+[Project]
+Name=ceres_biCubicInterplate
+Manager=KDevCMakeManager
+VersionControl=

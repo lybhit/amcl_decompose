@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/voxel_filter_simple.h
+bitset
+-
+vector
+-
+unordered_set
+-
+eigen3/Eigen/Core
+-
+
+/home/lyb/projects/amcl_voxel_filter/voxel_filter/src/main.cpp
+iostream
+-
+fstream
+-
+vector
+-
+cmath
+-
+string.h
+-
+voxel_filter_simple.h
+/home/lyb/projects/amcl_voxel_filter/voxel_filter/src/voxel_filter_simple.h
+

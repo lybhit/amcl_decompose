@@ -1,0 +1,41 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00\x16\x00m\x00a\x00p\x00_\x00a\x00n\x00a\x00l\x00y\x00z\x00e)
+
+[CMake]
+Build Directory Count=1
+Current Build Directory Index=0
+ProjectRootRelative=./
+
+[CMake][CMake Build Directory 0]
+Build Directory Path=file:///home/lyb/projects/amcl_map/map_analyze/build
+Build Type=Debug
+CMake Binary=file:///usr/bin/cmake
+Environment Profile=
+Extra Arguments=c++11
+Install Directory=file:///home/lyb/projects/amcl_map/map_analyze/build
+
+[Defines And Includes][Compiler]
+Name=GCC
+Path=gcc
+Type=GCC
+
+[Launch]
+Launch Configurations=Launch Configuration 0
+
+[Launch][Launch Configuration 0]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=map_analyze
+Type=Native Application
+
+[Launch][Launch Configuration 0][Data]
+Arguments=
+Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x02\x00\x00\x00\x16\x00m\x00a\x00p\x00_\x00a\x00n\x00a\x00l\x00y\x00z\x00e\x00\x00\x00\x16\x00m\x00a\x00p\x00_\x00a\x00n\x00a\x00l\x00y\x00z\x00e)
+Dependency Action=Build
+EnvironmentGroup=
+Executable=file:///home/lyb/projects/amcl_map/map_analyze/build/map_analyze
+External Terminal=konsole --noclose --workdir %workdir -e %exe
+Project Target=map_analyze,map_analyze
+Use External Terminal=false
+Working Directory=
+isExecutable=true

@@ -1,0 +1,41 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00.\x00c\x00e\x00r\x00e\x00s\x00_\x00b\x00i\x00C\x00u\x00b\x00i\x00c\x00I\x00n\x00t\x00e\x00r\x00p\x00l\x00a\x00t\x00e)
+
+[CMake]
+Build Directory Count=1
+Current Build Directory Index=0
+ProjectRootRelative=./
+
+[CMake][CMake Build Directory 0]
+Build Directory Path=file:///home/lyb/projects/ceres_biCubicInterplate/build
+Build Type=Debug
+CMake Binary=file:///usr/bin/cmake
+Environment Profile=
+Extra Arguments=c++11
+Install Directory=
+
+[Defines And Includes][Compiler]
+Name=GCC
+Path=gcc
+Type=GCC
+
+[Launch]
+Launch Configurations=Launch Configuration 0
+
+[Launch][Launch Configuration 0]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=ceres_bicubicinterplate
+Type=Native Application
+
+[Launch][Launch Configuration 0][Data]
+Arguments=
+Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x02\x00\x00\x00.\x00c\x00e\x00r\x00e\x00s\x00_\x00b\x00i\x00C\x00u\x00b\x00i\x00c\x00I\x00n\x00t\x00e\x00r\x00p\x00l\x00a\x00t\x00e\x00\x00\x00.\x00c\x00e\x00r\x00e\x00s\x00_\x00b\x00i\x00c\x00u\x00b\x00i\x00c\x00i\x00n\x00t\x00e\x00r\x00p\x00l\x00a\x00t\x00e)
+Dependency Action=Build
+EnvironmentGroup=
+Executable=file:///home/lyb/projects/ceres_biCubicInterplate/build/ceres_bicubicinterplate
+External Terminal=konsole --noclose --workdir %workdir -e %exe
+Project Target=ceres_biCubicInterplate,ceres_bicubicinterplate
+Use External Terminal=false
+Working Directory=
+isExecutable=true
